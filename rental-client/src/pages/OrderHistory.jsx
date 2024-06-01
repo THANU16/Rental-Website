@@ -44,7 +44,7 @@ const OrderHistory = () => {
               There are no orders in the order history
             </h1>
             <Link
-              to="/shop"
+              to="/rental"
               className="btn bg-blue-600 hover:bg-blue-500 text-white mt-10"
             >
               Make your first order

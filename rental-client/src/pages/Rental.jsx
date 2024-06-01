@@ -11,7 +11,7 @@ import axios from "axios";
 import { useLoaderData, useNavigate, useSearchParams } from "react-router-dom";
 import { nanoid } from "nanoid";
 
-export const shopLoader = async ({ request }) => {
+export const rentalLoader = async ({ request }) => {
   const params = Object.fromEntries([
     ...new URL(request.url).searchParams.entries(),
   ]);
@@ -72,14 +72,14 @@ export const shopLoader = async ({ request }) => {
 
 
 
-const Shop = () => {
+const Rental = () => {
 
   const productLoaderData = useLoaderData();
 
 
   return (
     <>
-      <SectionTitle title="Shop" path="Home | Shop" />
+      <SectionTitle title="Rental" path="Home | Rental" />
       <div className="max-w-7xl mx-auto mt-5">
         <Filters />
         {productLoaderData.productsData.length === 0 && <h2 className="text-accent-content text-center text-4xl my-10">No products found for this filter</h2>}
@@ -104,4 +104,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Rental;

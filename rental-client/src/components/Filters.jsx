@@ -131,7 +131,7 @@ const Filters = () => {
       >
         search
       </button>
-      <Link to="/shop?page=1" className="btn btn-primary btn-sm">
+      <Link to="/rental?page=1" className="btn btn-primary btn-sm">
         reset
       </Link>
     </Form>

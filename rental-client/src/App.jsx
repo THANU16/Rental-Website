@@ -7,17 +7,17 @@ import {
   Landing,
   Login,
   Register,
-  Shop,
+  Rental,
   SingleProduct,
   Wishlist,
   Profile,
   Search,
   ThankYou,
-  OrderHistory
+  OrderHistory,
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
-import { shopLoader } from "./pages/Shop";
+import { rentalLoader } from "./pages/Rental";
 import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
@@ -31,13 +31,12 @@ const router = createBrowserRouter([
         loader: landingLoader,
       },
       {
-        path: "shop",
-        element: <Shop />,
-        loader: shopLoader
-
+        path: "rental",
+        element: <Rental />,
+        loader: rentalLoader,
       },
       {
-        path: "shop/product/:id",
+        path: "rental/product/:id",
         element: <SingleProduct />,
         loader: singleProductLoader,
       },
@@ -74,17 +73,17 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
-        path:"search",
-        element: <Search />
+        path: "search",
+        element: <Search />,
       },
       {
-        path:"thank-you",
-        element: <ThankYou />
+        path: "thank-you",
+        element: <ThankYou />,
       },
       {
-        path:"order-history",
-        element: <OrderHistory />
-      }
+        path: "order-history",
+        element: <OrderHistory />,
+      },
     ],
   },
 ]);

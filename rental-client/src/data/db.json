@@ -1,68 +1,72 @@
 {
   "products": [
     {
-      "id": 205082351,
-      "name": "Walk London Milano lace up boots in black leather",
-      "description": "Demo description",
-      "isInStock": true,
-      "gender": "male",
-      "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42
-      ],
-      "rating": 4,
-      "reviews": [
-        {
-          "username": "Darron Miloscia",
-          "userImage": "/src/assets/user profile photo 2.jpg",
-          "location": "United Kingdom",
-          "rating": 5,
-          "date": "March 3, 2017",
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
-        },
-        {
-          "username": "Andres Papp",
-          "userImage": "/src/assets/user profile photo 3.jpg",
-          "location": "Portugal",
-          "rating": 4,
-          "date": "March 3, 2020",
-          "reviewTitle": "Very good boots!",
-          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
-        },
-        {
-          "username": "Twana Davinroy",
-          "userImage": "/src/assets/user profile photo 3 f.jpg",
-          "location": "Germany",
-          "rating": 3,
-          "date": "March 3, 2023",
-          "reviewTitle": "It can be better!",
-          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
-        }
-      ],
-      "totalReviewCount": 30,
-      "productionDate": "2021-10-31T09:00:00.594Z",
-      "price": {
-        "current": {
-          "value": 115,
-          "text": "$115.00"
-        }
-      },
-      "brandName": "WALK LONDON",
-      "productCode": 132179002,
-      "imageUrl": "images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-1-black",
-      "additionalImageUrls": [
-        "images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-1-black",
-        "images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-2",
-        "images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-3",
-        "images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-4"
-      ]
-    },
+			"id": 205082351,
+			"name": "CANON-EF-S-18-55MM-F3.5-5.6-III LENS FOR RENT",
+			"description": "Demo description",
+			"isInStock": true,
+			"gender": "female",
+			"category": "Photography",
+			"subCategory": "LENS",
+			"noOfItems": 4,
+			"availableSizes": [
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			],
+			"rating": 4,
+			"reviews": [
+				{
+					"username": "Darron Miloscia",
+					"userImage": "/src/assets/user profile photo 2.jpg",
+					"location": "United Kingdom",
+					"rating": 5,
+					"date": "March 3, 2017",
+					"reviewTitle": "Very good",
+					"reviewText": "I am uinsg this lens 4 times. The program output is best one. No noise in this lens."
+				},
+				{
+					"username": "Andres Papp",
+					"userImage": "/src/assets/user profile photo 3.jpg",
+					"location": "Portugal",
+					"rating": 4,
+					"date": "March 3, 2020",
+					"reviewTitle": "Very good boots!",
+					"reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+				},
+				{
+					"username": "Twana Davinroy",
+					"userImage": "/src/assets/user profile photo 3 f.jpg",
+					"location": "Germany",
+					"rating": 3,
+					"date": "March 3, 2023",
+					"reviewTitle": "It can be better!",
+					"reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+				}
+			],
+			"totalReviewCount": 30,
+			"productionDate": "2021-10-31T09:00:00.594Z",
+			"price": {
+				"current": {
+					"value": 115,
+					"text": "$115.00"
+				}
+			},
+			"brandName": "CANON",
+			"productCode": 132179002,
+			"imageUrl": "/src/image-media/CANON-EF-S-18-55MM-F3.5-5.6-III-LENS/ef410_b.jpg",
+			"additionalImageUrls": [
+				"images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-1-black",
+				"images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-2",
+				"images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-3",
+				"images.asos-media.com/products/walk-london-milano-lace-up-boots-in-black-leather/205082351-4"
+			]
+		},
     {
       "id": 205107270,
       "name": "Walk London Sean tassel loafers in brown milled leather",
