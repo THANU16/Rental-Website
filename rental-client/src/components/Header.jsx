@@ -141,7 +141,7 @@ const Header = () => {
                   {amount} Items
                 </span>
                 <span className="text-info text-accent-content">
-                  Subtotal: ${total.toFixed(2)}
+                  Subtotal: Rs {total.toFixed(2)}
                 </span>
                 <div className="card-actions">
                   <Link

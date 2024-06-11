@@ -99,13 +99,13 @@ const Filters = () => {
         defaultValue="a-z"
       />
       {/* Producer */}
-      <FormSelect
+      {/* <FormSelect
         label="Select gender"
         name="gender"
         list={["all", "male", "female"]}
         size="select-sm"
         defaultValue="all"
-      />
+      /> */}
       {/* PRICE */}
       <FormRange
         name="price"

@@ -15,7 +15,7 @@ const Stats = () => {
             </div>
             <div className="flex flex-col items-center">
               <h3 className="text-5xl font-extrabold leading-tight text-center text-accent-content">
-                $<span>12</span>m
+                Rs <span>12</span>m
               </h3>
               <p className="text-base font-medium leading-7 text-center text-accent-content">
                 Annual Revenue Growth

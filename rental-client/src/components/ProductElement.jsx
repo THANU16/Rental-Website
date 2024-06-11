@@ -13,7 +13,7 @@ const ProductElement = ({ id, title, image, rating, price, brandName }) => {
         <Link to={`/rental/product/${id}`} onClick={() => window.scrollTo(0, 0)}>
           <img
             className="rounded-t-lg p-8"
-            src={`https://${image}`}
+            src={image || `https://${image}`}
             // src={image}
             alt="product image"
           />
@@ -25,7 +25,7 @@ const ProductElement = ({ id, title, image, rating, price, brandName }) => {
             </h3>
           </Link>
           <div className="flex items-center justify-between">
-            <span className="text-3xl font-bold text-accent-content">${price}</span>
+            <span className="text-3xl font-bold text-accent-content">Rs {price}</span>
           </div>
         </div>
       </div>

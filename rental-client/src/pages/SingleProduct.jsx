@@ -56,7 +56,7 @@ const SingleProduct = () => {
     price: productData?.price?.current?.value,
     brandName: productData?.brandName,
     amount: quantity,
-    selectedSize: size || productData?.availableSizes[0],
+    // selectedSize: size || productData?.availableSizes[0],
     isInWishList:
       wishItems.find((item) => item.id === productData?.id + size) !==
       undefined,
@@ -121,14 +121,16 @@ const SingleProduct = () => {
       <div className="grid grid-cols-2 max-w-7xl mx-auto mt-5 max-lg:grid-cols-1 max-lg:mx-5">
         <div className="product-images flex flex-col justify-center max-lg:justify-start">
           <img
-            src={`https://${productData?.additionalImageUrls[currentImage]}`}
+            // src={`https://${productData?.additionalImageUrls[currentImage]}`}
+            src={productData?.imageUrl || `https://${productData?.additionalImageUrls[currentImage]}`}
             className="w-96 text-center border border-gray-600 cursor-pointer"
             alt={productData.name}
           />
           <div className="other-product-images mt-1 grid grid-cols-3 w-96 gap-y-1 gap-x-2 max-sm:grid-cols-2 max-sm:w-64">
             {productData?.additionalImageUrls.map((imageObj, index) => (
               <img
-                src={`https://${imageObj}`}
+                // src={`https://${imageObj}`}
+                src={{imageObj} || `https://${imageObj}`}
                 key={nanoid()}
                 onClick={() => setCurrentImage(index)}
                 alt={productData.name}
@@ -143,18 +145,18 @@ const SingleProduct = () => {
           </h2>
           <SingleProductRating rating={rating} productData={productData} />
           <p className="text-3xl text-error">
-            ${productData?.price?.current?.value}
+            Rs {productData?.price?.current?.value}
           </p>
           <div className="text-xl max-sm:text-lg text-accent-content">
             {parse(productData?.description)}
           </div>
-          <div className="text-2xl">
+          {/* <div className="text-2xl">
             <SelectSize
               sizeList={productData?.availableSizes}
               size={size}
               setSize={setSize}
             />
-          </div>
+          </div> */}
           <div>
             <label htmlFor="Quantity" className="sr-only">
               {" "}

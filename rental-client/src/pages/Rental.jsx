@@ -32,7 +32,7 @@ export const rentalLoader = async ({ request }) => {
     brand: params.brand ?? "all",
     category: params.category ?? "all",
     date: mydate ?? "",
-    gender: params.gender ?? "all",
+    // gender: params.gender ?? "all",
     order: params.order ?? "",
     price: params.price ?? "all",
     search: params.search ?? "",
@@ -44,7 +44,7 @@ export const rentalLoader = async ({ request }) => {
   let parameter = (`?_start=${(filterObj.current_page - 1) * 10}&_limit=10`) + // pre defined that limit of response is 10 & page number count 1
     (filterObj.brand !== 'all' ? `&brandName=${filterObj.brand}` : "") +
     (filterObj.category !== 'all' ? `&category=${filterObj.category}` : "") +
-    (filterObj.gender !== 'all' ? `&gender=${filterObj.gender}` : ``) +
+    // (filterObj.gender !== 'all' ? `&gender=${filterObj.gender}` : ``) +
     ((filterObj.search != '') ? `&q=${encodeURIComponent(filterObj.search)}` : ``) +
     (filterObj.order ? `&_sort=price.current.value` : "") + // Check if the order exists, then sort it in ascending order. After that, the API response will be modified if descending order or any other filter is selected.
     (filterObj.in_stock ? (`&isInStock`) : '') +
